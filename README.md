@@ -89,23 +89,6 @@ The current model performs at chance level (AUC ≈ 0.5). It was not able to sep
 - Add brain connectome features (structural or functional connectivity) alongside biomarkers
 - Cross-validation for more reliable estimates
 
-## 📁 Project Structure
-
-```
-├── DL_Cognitive_Risk_Atypical_Parkinsonism.ipynb
-├── models/
-│   ├── risk_stratification_model_1.keras
-│   ├── risk_stratification_model_2.keras
-│   ├── risk_stratification_model_3.keras
-│   ├── risk_stratification_preprocessor.pkl
-│   └── risk_stratification_pca.pkl
-├── results/
-│   ├── Risk_Stratification_Results.csv
-│   └── risk_stratification_metadata.json
-├── requirements.txt
-└── README.md
-```
-
 ## 🚀 Getting Started
 
 The notebook was built in Google Colab. To run locally, replace the `files.upload()` cells with a direct file path.
