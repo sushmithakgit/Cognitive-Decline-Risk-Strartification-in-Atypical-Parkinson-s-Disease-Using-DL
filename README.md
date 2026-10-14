@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-orange)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow)
-![Status](https://img.shields.io/badge/status-in%20progress-lightgrey)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 ## 📌 Overview
 
@@ -74,15 +74,13 @@ An ensemble of 3 fully connected neural networks, with predictions averaged:
 
 ### What this means
 
-The current model performs at chance level (AUC ≈ 0.5). It is not yet able to separate high and low risk patients. Likely reasons being investigated:
+The current model performs at chance level (AUC ≈ 0.5). It was not able to separate high and low risk patients. Likely reasons:
 
 - The available biomarkers may not carry enough signal for this target on their own
 - The target definition may need refinement
-- Validation design needs tightening (see Next Steps)
+- Validation design could be tightened (see Future Work)
 
-This is reported as a baseline, not a finished result.
-
-## 🔭 Next Steps
+## 🔭 Future Work
 
 - Fit preprocessing and PCA on training data only, to avoid data leakage
 - Use a separate validation split for early stopping instead of the test set
@@ -141,5 +139,4 @@ joblib
 
 ## 👤 Author
 
-**Your Name**
-Always learning, always building at the edge of medicine and machines.
+**Sushmitha K**
