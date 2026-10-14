@@ -89,27 +89,6 @@ The current model performs at chance level (AUC ≈ 0.5). It was not able to sep
 - Add brain connectome features (structural or functional connectivity) alongside biomarkers
 - Cross-validation for more reliable estimates
 
-## 🚀 Getting Started
-
-The notebook was built in Google Colab. To run locally, replace the `files.upload()` cells with a direct file path.
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-pip install -r requirements.txt
-jupyter notebook
-```
-
-**requirements.txt**
-```
-numpy
-pandas
-scikit-learn
-tensorflow
-matplotlib
-joblib
-```
-
 ## 🛠️ Tech Stack
 
 | Area | Tools |
